@@ -10,6 +10,14 @@
 
 Point de départ du parcours C++ à 42. Introduction à la **programmation orientée objet (OOP)**. Tout le code suit la norme **C++98**.
 
+## État d'avancement
+
+| Exercice | Statut | Remarque |
+|---|---|---|
+| ex00 — Megaphone | ✅ Fonctionnel | Manipulation `char**` en style C ; envisager `std::string`/`std::toupper` pour rester « C++-ish » |
+| ex01 — My Awesome PhoneBook | 🟡 Incomplet | `Contact` est fait ; `PhoneBook` n'a aucune méthode et `main.cpp` n'implémente pas la boucle `ADD`/`SEARCH`/`EXIT` ni l'affichage en colonnes (`iomanip`) |
+| ex02 — The Job Of Your Dreams | ⬜ Non commencé | Optionnel — seuls les fichiers fournis (`Account.hpp`, `tests.cpp`, log) sont présents, `Account.cpp` reste à écrire |
+
 ---
 
 - [C++ — Module 00](#c--module-00)
