@@ -1,8 +1,8 @@
-# CPP-gang
+# CPP-Module-00
 
 ![C++](https://img.shields.io/badge/C++-98-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Top language](https://img.shields.io/github/languages/top/NicolasBaudoin/CPP-gang?style=flat-square)
-![Last commit](https://img.shields.io/github/last-commit/NicolasBaudoin/CPP-gang?style=flat-square)
+![Top language](https://img.shields.io/github/languages/top/NicolasBaudoin/CPP-Module-00?style=flat-square)
+![Last commit](https://img.shields.io/github/last-commit/NicolasBaudoin/CPP-Module-00?style=flat-square)
 [![Notes](https://img.shields.io/badge/ _Notes-suivi-blue?style=flat-square)](NOTES.md)
 [![ex01](https://img.shields.io/badge/ex01-en_cours-yellow?style=flat-square)](NOTES.md)
 
