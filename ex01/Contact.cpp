@@ -1,48 +1,58 @@
-#include <iostream>
 #include "Contact.hpp"
-#include <string>
+#include <iostream>
 
-// Setters
+// DISPLAY
 
-void Contact::setFirstName(std::string value){
-    firstName = value;
-}
-void Contact::setLastName(std::string value){
-    lastName = value;
-}
-void Contact::setNickName(std::string value){
-    nickName = value;
-}
-void Contact::setPhoneNumber(std::string value){
-    phoneNumber = value;
-}
-void Contact::setDarkestSecret(std::string value){
-    darkestSecret = value;
+void Contact::display(void) const
+{
+	std::cout << _firstName << std::endl;
+	std::cout << _lastName << std::endl;
+	std::cout << _nickname << std::endl;
+	std::cout << _phoneNumber << std::endl;
+	std::cout << _darkestSecret << std::endl;
 }
 
-// Getters
-
-std::string Contact::getFirstName(){
-    return firstName;
-}
-std::string Contact::getLastName(){
-    return lastName;
-}
-std::string Contact::getNickName(){
-    return nickName;
-}
-std::string Contact::getPhoneNumber(){
-    return phoneNumber;
-}
-std::string Contact::getDarkestSecret(){
-    return darkestSecret;
+// SETTER
+void Contact::setFirstName(std::string value)
+{
+	_firstName = value;
 }
 
-//  Diplay
-void Contact::display(){
-    std::cout << firstName << std::endl;
-    std::cout << lastName << std::endl;
-    std::cout << nickName << std::endl;
-    std::cout << phoneNumber << std::endl;
-    std::cout << darkestSecret << std::endl;
-} 
+void Contact::setLastName(std::string value)
+{
+	_lastName = value;
+}
+void Contact::setNickname(std::string value)
+{
+	_nickname = value;
+}
+void Contact::setPhoneNumber(std::string value)
+{
+	_phoneNumber = value;
+}
+void Contact::setDarkestSecret(std::string value)
+{
+	_darkestSecret = value;
+}
+
+// GETTER
+std::string Contact::getFirstName(void) const
+{
+	return _firstName;
+}
+std::string Contact::getLastName(void) const
+{
+	return _lastName;
+}
+std::string Contact::getNickname(void) const
+{
+	return _nickname;
+}
+std::string Contact::getPhoneNumber(void) const
+{
+	return _phoneNumber;
+}
+std::string Contact::getDarkestSecret(void) const
+{
+	return _darkestSecret;
+}

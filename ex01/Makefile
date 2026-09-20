@@ -1,6 +1,6 @@
 # ---- Ce que tu adaptes à chaque exercice ----
 NAME    = phonebook
-SRCS    = main.cpp Contact.cpp PhoneBook.cpp
+SRCS    = main.cpp Contact.cpp PhoneBook.cpp search.cpp
 # ---------------------------------------------
 
 CXX     = c++

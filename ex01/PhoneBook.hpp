@@ -1,15 +1,19 @@
 #ifndef PHONEBOOK_HPP
-#define PHONEBOOK_HPP
+# define PHONEBOOK_HPP
 
 #include "Contact.hpp"
 
-#define LENGTH_PHONEBOOK 8
+class PhoneBook
+{
+	private:
+		Contact	_contact[8];
+		int		_count;
 
-class PhoneBook {
-    private :
-      Contact contacts_list[LENGTH_PHONEBOOK];
-      int head;
-      int tail;
+	public:
+		PhoneBook(void);
+		void	addContact(Contact const & c);
+		int		getCount(void) const;
+		Contact const & getContact(int index) const;
 };
 
 #endif
