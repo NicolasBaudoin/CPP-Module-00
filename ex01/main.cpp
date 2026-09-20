@@ -83,7 +83,6 @@ static void	createContact(PhoneBook *book)
 	c.setDarkestSecret(darkestSecret);
 
 	book->addContact(c);
-	c.display();
 }
 
 int main()
