@@ -1,3 +1,4 @@
+#include <cctype>
 #include <iostream>
 
 int main(int ac, char **av)
@@ -9,7 +10,8 @@ int main(int ac, char **av)
 
 	for (i = 1; s[i]; i++)
 		for (j = 0; s[i][j]; j++)
-			s[i][j] >= 'a' && s[i][j] <= 'z' ? std::cout << (s[i][j] -= 32) : std::cout << s[i][j];
+			std::cout << static_cast<char>(std::toupper(static_cast<unsigned char>(s[i][j])));
+
 	std::cout << std::endl;
 
 	return 0;
