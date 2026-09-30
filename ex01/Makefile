@@ -1,7 +1,5 @@
-# ---- Ce que tu adaptes à chaque exercice ----
 NAME    = phonebook
 SRCS    = main.cpp Contact.cpp PhoneBook.cpp search.cpp
-# ---------------------------------------------
 
 CXX     = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
