@@ -1,12 +1,12 @@
 # ---- Ce que tu adaptes à chaque exercice ----
-NAME    = Accoount
-SRCS    = main.cpp
+NAME    = account
+SRCS    = tests.cpp Account.cpp
 # ---------------------------------------------
 
 CXX     = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
-HEADERS = Cat.hpp Dog.hpp
+HEADERS = Account.hpp
 
 OBJS    = $(SRCS:.cpp=.o)
 
